@@ -1,4 +1,4 @@
-FROM deploy/jdk-tomcat
+FROM deploy-jdk-tomcat
 MAINTAINER      zhangbo zhangbo@360jk.com
 
 ADD target/WebTest.war /usr/local/tomcat7/webapps
