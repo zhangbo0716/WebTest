@@ -1,0 +1,8 @@
+version: "0.1.0"
+   pre_ci_boot:
+       image: index.alauda.cn/jk360/compile-jdk-maven
+       tag: "latest"
+   ci:
+       - mvn clean package -Dmaven.test.skip=true
+       - cp target $ALAUDACI_DEST_DIR
+       - cp Dockerfile $AUAUDACI_DEST_DIR
