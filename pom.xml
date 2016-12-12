@@ -7,7 +7,7 @@
     <groupId>com.galaxy.test</groupId>
     <artifactId>webtest</artifactId>
     <version>1.0</version>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
     <dependencies>
     <dependency>
