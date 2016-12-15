@@ -5,4 +5,4 @@ pre_ci_boot:
 ci:
     - mvn clean package -Dmaven.test.skip=true
     - cp -r target $ALAUDACI_DEST_DIR
-    - cp Dockerfile $AUAUDACI_DEST_DIR
+    - cp Dockerfile $ALAUDACI_DEST_DIR
