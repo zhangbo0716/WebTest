@@ -23,7 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	<a href="refererServlet">跳转RefererServlet</a><br>
   	<a href="headerServlet">跳转HeaderServlet</a><br>
-  	<a href="urlServlet">跳转UrlServlet</a><br>
   	<a href="macServlet">跳转MacServlet</a><br>
   </body>
 </html>
